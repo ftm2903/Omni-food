@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container {
+  background-color: #f7f7f7;
+  width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.1rem;
+}
+.left-side-header {
+}
+.left-side-header img {
+  height: 1.6rem;
+}
+.center-side-header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.1rem;
+}
+.center-side-header nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+.center-side-header nav ul li a:hover {
+  color: darkorange;
+}
+.right-side-header {
+}
+.searchbox {
+  position: relative;
+}
+.searchbox input {
+  outline: none;
+  border: none;
+  background-color: #fff;
+  padding: 0.6rem 0.5rem;
+  border-radius: 100px;
+}
+.searchbox button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  position: absolute;
+  top: 5%;
+  right: 2%;
+}
+.searchbox .header-icon {
+  color: darkorange;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+main {
+  margin-top: 1.1rem;
+}
+.top-main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 1.5rem;
+  column-gap: 1.5rem;
+}
+.left-side-top-main img {
+  width: 100%;
+  border: 5px solid rgba(255, 0, 0, 0.3);
+}
+.right-side-top-main {
+  font-size: 1rem;
+}
+.right-side-top-main p {
+  margin-bottom: 1.2rem;
+}
+.right-side-top-main p span {
+  font-weight: bold;
+  color: brown;
+}
+.right-side-top-main h2 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+.right-side-top-main .title {
+  text-transform: capitalize;
+}
+.rate {
+  display: flex;
+  align-items: center;
+}
+.rate .title {
+  font-weight: bold;
+  color: brown;
+}
+.star-icon {
+  color: brown;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.center-side-main table {
+  border: 2px solid orange;
+  width: 80%;
+  margin: 2rem auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+.center-side-main table tr td,
+.center-side-main table tr th {
+  border: 2px solid orange;
+}
+.center-side-main table thead th {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.center-side-main table tbody td {
+  text-transform: capitalize;
+  font-size: 1rem;
+  color: #333;
+}
+.bottom-side-main {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  text-transform: capitalize;
+  padding: 1rem;
+}
+.footer {
+  border-top: 1px solid orange;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+}
+.left-side-footer {
+  text-align: left;
+}
+.left-side-footer p {
+  margin-bottom: 0.8rem;
+}
+.left-side-footer a {
+  text-decoration: none;
+  color: brown;
+}
+.right-side-footer nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.right-side-footer nav ul li a {
+  text-decoration: none;
+  color: brown;
+}
+.btn-up a {
+  display: inline-block;
+  background-color: orange;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  border-radius: 100%;
+  cursor: pointer;
+  color: brown;
+}
+.btn-up a .icon-footer {
+  width: 2.5rem;
+  height: 2.5rem;
+}
